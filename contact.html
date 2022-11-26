@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* width */
+        ::-webkit-scrollbar {
+          width: 10px;
+        }
+        
+        /* Track */
+        ::-webkit-scrollbar-track {
+          box-shadow: inset 0 0 5px grey; 
+          border-radius: 10px;
+        }
+         
+        /* Handle */
+        ::-webkit-scrollbar-thumb {
+            background: rgb(165, 133, 133);
+          border-radius: 5px;
+        }
+        
+        /* Handle on hover */
+        ::-webkit-scrollbar-thumb:hover {
+            background: rgb(165, 133, 133);
+
+        }
+        </style>
+    <link rel="icon" type="image/x-icon" href="/img/avatar.svg">
+    <script src="https://kit.fontawesome.com/00c362caf9.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="styles.css">
+    <title>Get in Touch</title>
+</head>
+
+<body>
+    <video autoplay muted loop id="myVideo">
+        <source src="img/Robot.mp4" type="video/mp4">
+    </video>
+    <nav class="navbar">
+        <div class="logo">JEFF</div>
+        <ul class="nav-links">
+            <div class="menu">
+                <li><i class="fa-solid fa-house-user"></i> <a href="index.html">Home</a></li>
+                <li>    <i class="fa-solid fa-suitcase"></i>      <a href="projects.html">Projects</a></li>
+                <li>   <i class="fa-solid fa-address-book"></i>    <a href="contact.html">Contact Me</a>
+                </li>
+            </div>
+        </ul>
+    </nav>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="container">
+        <div class="contact-box">
+            <div class="left"></div>
+            <div class="right">
+                <h2>Get In Touch</h2>
+                <form action="mailto:jeffreyhawchab@gmail.com" method="get" enctype="text/plain">
+                        <input type="text" class="field" placeholder="Your Name">
+                    <label for="Email">
+                        <input type="text" class="field" placeholder="Your Email">
+                    <label for="Phone">
+                        <input type="text" class="field" placeholder="Phone">
+                    <label for="Message">
+                        <textarea placeholder="Message" class="field"></textarea>
+                    <button class="btn">Send</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
